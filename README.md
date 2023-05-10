@@ -1,17 +1,14 @@
-## My Project
+# aws-blu-age-sample-container
 
-TODO: Fill this README out!
+## Blu Age Sample Container
 
-Be sure to:
+## Description
+This pattern provides a sample container environment for running mainframe workloads which have been modernised with the AWS Blu Age tool. Blu Age converts legacy mainframe workloads into modern Java code, producing either a WAR or JAR as needed. 
 
-* Change the title in this README
-* Edit your repository description on GitHub
+This pattern provides an execution wrapper around the Java application enabling it to be executed via container orchestration services such as Amazon ECS or Amazon EKS.
 
-## Security
+See the APG artefact for detailed instructions on usage.
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
+## Authors and acknowledgment
+Richard Milner-Watts 
 
