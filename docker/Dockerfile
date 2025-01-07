@@ -18,8 +18,7 @@ FROM amazonlinux:latest
 
 # Install packages
 RUN yum upgrade -y
-RUN amazon-linux-extras install -y corretto8=1.8.0_242
-RUN amazon-linux-extras install -y postgresql13
+RUN yum install -y java-11-amazon-corretto
 RUN yum install -y wget tar unzip zip
 
 # Install AWS CLI

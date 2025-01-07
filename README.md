@@ -7,7 +7,9 @@ This pattern provides a sample container environment for running mainframe workl
 
 This pattern provides an execution wrapper around the Java application enabling it to be executed via container orchestration services such as Amazon ECS or Amazon EKS.
 
-See the APG artefact for detailed instructions on usage.
+See the APG artefact for detailed instructions on usage:
+https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/containerize-mainframe-workloads-that-have-been-modernized-by-blu-age.html
+
 
 ## Authors and acknowledgment
 Richard Milner-Watts 
