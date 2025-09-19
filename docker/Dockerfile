@@ -18,7 +18,7 @@ FROM amazonlinux:latest
 
 # Install packages
 RUN yum upgrade -y
-RUN yum install -y java-11-amazon-corretto
+RUN yum install -y java-24-amazon-corretto
 RUN yum install -y wget tar unzip zip
 
 # Install AWS CLI
